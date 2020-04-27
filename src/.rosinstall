@@ -1,0 +1,14 @@
+# IT IS UNLIKELY YOU WANT TO EDIT THIS FILE BY HAND,
+# UNLESS FOR REMOVING ENTRIES.
+# IF YOU WANT TO CHANGE THE ROS ENVIRONMENT VARIABLES
+# USE THE rosinstall TOOL INSTEAD.
+# IF YOU CHANGE IT, USE rosinstall FOR THE CHANGES TO TAKE EFFECT
+- git: {local-name: ROSEndEffector, uri: 'https://github.com/ADVRHumanoids/ROSEndEffector.git',
+    version: devel}
+- git: {local-name: roboticsgroup_gazebo_plugins, uri: 'https://github.com/roboticsgroup/roboticsgroup_gazebo_plugins.git'}
+- git: {local-name: rosee_gazebo_plugins, uri: 'https://github.com/ADVRHumanoids/rosee_gazebo_plugins.git',
+    version: devel}
+- git: {local-name: rosee_gui, uri: 'https://github.com/ADVRHumanoids/rosee_gui.git',
+    version: devel}
+- git: {local-name: rosee_msg, uri: 'https://github.com/ADVRHumanoids/rosee_msg.git',
+    version: devel}
