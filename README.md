@@ -11,3 +11,12 @@ rosinstall src
 catkin_make
 ```
 
+## Install (tori version)
+~~~bash
+sudo apt-get install ros-kinetic-moveit #rosdep DOES not install this
+
+mkdir ~/rosee_ws && cd ~/rosee_ws #or any folder name you want for workspace
+git clone https://github.com/ADVRHumanoids/ROSEndEffectorPackageManager.git . #note the dot
+rosinstall src
+catkin_make
+~~~
