@@ -5,9 +5,10 @@ Metapackage containing all the information and rules to download and install the
 
 ```
 git clone https://github.com/ADVRHumanoids/ROSEndEffectorPackageManager.git
+cd ROSEndEffectorPackageManager
+./setup.sh
 cd src
 catkin_init_workspace
-rosinstall src
+rosinstall .
 catkin_make
 ```
-
