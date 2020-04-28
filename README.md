@@ -4,7 +4,7 @@ Metapackage containing all the information and rules to download and install the
 ## Install the ROSEndEffector Framework
 
 ```
-git clone https://github.com/ADVRHumanoids/ROSEndEffectorPackageManager.git
+git clone -b devel https://github.com/ADVRHumanoids/ROSEndEffectorPackageManager.git
 cd ROSEndEffectorPackageManager
 ./setup.sh
 cd src
