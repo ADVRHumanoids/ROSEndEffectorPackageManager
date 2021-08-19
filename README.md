@@ -7,8 +7,7 @@ Metapackage containing all the information and rules to download and install the
 git clone -b hal_xbot2 https://github.com/ADVRHumanoids/ROSEndEffectorPackageManager.git
 cd ROSEndEffectorPackageManager
 ./setup.sh
-cd src
-catkin_init_workspace
+cd src && catkin_init_workspace
 rosinstall .
-catkin_make
+cd ../ && catkin_make
 ```
