@@ -12,4 +12,4 @@
 - git: {local-name: rosee_gui, uri: 'https://github.com/ADVRHumanoids/rosee_gui.git',
     version: devel}
 - git: {local-name: rosee_msg, uri: 'https://github.com/ADVRHumanoids/rosee_msg.git',
-    version: devel}
+    version: master}
