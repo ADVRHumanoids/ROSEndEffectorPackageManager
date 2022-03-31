@@ -8,3 +8,6 @@ sudo apt install ros-$ROS_DISTRO-control-toolbox
 
 #python numexpr necessary for the joint state publisher mimic nonlinear fork
 sudo apt install python-numexpr #or sudo apt install python3-numexpr
+
+#muparser
+sudo apt install libmuparser-dev
